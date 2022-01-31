@@ -8,7 +8,7 @@ Print Nanny OS provides monitoring, alerts, and automation for 3D Printers.
 ![Github Followers](https://img.shields.io/github/followers/leigh-johnson?style=social)
 ![Release](https://img.shields.io/github/release-date-pre/bitsy-ai/printnanny-os)
 
-![Print Nanny Header](https://github.com/bitsy-ai/printnanny-os/raw/main/images/header.jpg)
+![Print Nanny Header](https://github.com/bitsy-ai/printnanny-os/raw/main/images/header.png)
 
 ## Learn More
 
