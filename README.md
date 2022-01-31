@@ -28,6 +28,11 @@ Print Nanny OS provides monitoring, alerts, and automation for 3D Printers.
 🚧 work-in-progress
 ❌ no support planned
 
+## Install Guide
+
+* [Download the latest release](https://github.com/bitsy-ai/printnanny-os/releases)
+* [Follow the Welcome/Install Guide](https://www.print-nanny.com/devices/welcome/) (requires Print Nanny membership)
+
 ## What's inside Print Nanny OS?
 
 * Based on Debian Bullseye (arm64)
