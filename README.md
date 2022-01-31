@@ -28,6 +28,14 @@ Print Nanny OS provides monitoring, alerts, and automation for 3D Printers.
 🚧 work-in-progress
 ❌ no support planned
 
+## What's inside Print Nanny OS?
+
+* Based on Debian Bullseye (arm64)
+* [OctoPrint](https://octoprint.org/) pre-installed (Mainsail coming soon)
+* WebRTC video streaming stack based on [Janus Gateway](https://github.com/meetecho/janus-gateway), [gstreamer](https://gstreamer.freedesktop.org/), and [libcamera](https://libcamera.org/)
+* [TensorFlow & TensorFlow Lite](https://www.tensorflow.org/)
+* MQTT event publish/subscribe system
+* [WireGuard VPN](https://www.wireguard.com/)
 
 ![Print Nanny Logo](https://github.com/bitsy-ai/octoprint-nanny-plugin/raw/main/docs/images/logo.jpg)
 
@@ -56,6 +64,10 @@ XCjIMxkdH5w5kJ1thUG6cVyBflnhIwrFBAsyvAITKJfWDX1VXmw=
 =FOPz
 -----END PGP SIGNATURE-----
 ```
+
+## License
+
+Copyright 2022 Bitsy AI Labs. All rights reserved. Source code available under the AGPLv3.
 
 ## Credits
 
