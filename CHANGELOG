@@ -1,0 +1,9 @@
+# 2022-01-30-2352 (nightly)
+
+* [ansible-collection-rpi@v0.115.0](https://github.com/bitsy-ai/ansible-collection-rpi)
+* [printnanny-webapp@v0.47.2](https://github.com/bitsy-ai/printnanny-webapp)
+* [printnanny-cli@v0.12.16](https://github.com/bitsy-ai/printnanny-cli)
+
+### Known Issues
+
+`printnanny-monitor` (gstreamer pipeline) occasionally hangs flushing frame buffer, requiring restart of `systemctl restart printnanny-gst`
