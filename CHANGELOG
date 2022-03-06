@@ -1,3 +1,14 @@
+# 2022-02-08-2156 (nightly)
+
+### Changes
+
+* [printnanny-cli@0.17.2](https://github.com/bitsy-ai/printnanny-cli/releases/tag/v0.17.2)
+* [ansible-collection-printnanny@1.5.2](https://github.com/bitsy-ai/ansible-collection-printnanny/releases/tag/v1.5.2)
+* [printnanny-webapp@0.64.0](https://github.com/bitsy-ai/printnanny-webapp/releases/tag/v0.64.0)
+
+### Download
+
+https://dl.printnanny.ai/printnanny-os/octoprint-bullseye-arm64/nightly/2202-03-06-1020/
 
 # 2022-02-08-2156 (nightly)
 
