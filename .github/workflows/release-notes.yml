@@ -1,0 +1,35 @@
+name: Publish Release Notes
+on:
+  release:
+    # Sequence of patterns matched against refs/tags
+    types: [ published ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+    - name: Send Discord notification (nightly)
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.PRINT_NANNY_DISCORD_DEPLOY_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
+      with:
+        args: |
+            🧪 ** Nightly PrintNanny OS Image **
+            `{{ EVENT_PAYLOAD.repository.full_name }}@{{ GITHUB_SHA }}`
+            **Version**: `${{ github.ref }}`
+            **Release Notes**: ${{ github.event.release.html_url }}
+      if:  ${{ github.event.release.prerelease == true }}
+    - name: Send Discord notification (stable)
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.PRINT_NANNY_DISCORD_DEPLOY_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
+      with:
+        args: |
+            💜 ** New PrintNanny OS Image **
+            `{{ EVENT_PAYLOAD.repository.full_name }}@{{ GITHUB_SHA }}`
+            **Version**: `${{ github.ref }}`
+            **Release Notes**: ${{ github.event.release.html_url }}
+      if:  ${{ github.event.release.prerelease == false }}
