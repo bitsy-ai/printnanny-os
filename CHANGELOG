@@ -1,3 +1,13 @@
+# 2022-03-07-xxxx (nightly)
+
+### OctoPrint Edition
+
+* Fix missing OctoPrint buttons: shutdown, reboot, restart OctoPrint, restart OctoPrint in safe mode
+* Allow upload of gcode files up to 1GB in filesize
+* Fix incorrect OctoPrint button url
+
+### Dependencies
+
 # 2022-03-06-2216 (nightly)
 
 ### Download
