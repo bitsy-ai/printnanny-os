@@ -2,6 +2,25 @@
 
 ### Downloads
 
+https://dl.printnanny.ai/printnanny-os/octoprint-bullseye-arm64/nightly/2022-03-11-1927/
+
+### OctoPrint Edition
+
+* Fix permission issues impacting printnanny-cmd handler
+* Fix initial state of printnanny-monitor.service
+* Activate printnanny-mqtt.service only after device is registered
+* Increase nginx proxy read/connect/send timeout to 5 minutes (large files)
+
+### Dependencies
+
+* [printnanny-cli@0.17.6](https://github.com/bitsy-ai/printnanny-cli/releases/tag/v0.17.6)
+* [ansible-collection-printnanny@1.5.6](https://github.com/bitsy-ai/ansible-collection-printnanny/releases/tag/v1.5.6)
+* [printnanny-webapp@0.65.1](https://github.com/bitsy-ai/printnanny-webapp/releases/tag/v0.65.1)
+
+# 2022-03-07-2310 (nightly)
+
+### Downloads
+
 https://dl.printnanny.ai/printnanny-os/octoprint-bullseye-arm64/nightly/2022-03-07-2310/
 
 ### OctoPrint Edition
