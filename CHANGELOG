@@ -1,3 +1,24 @@
+# 2022-04-22-1341 (nightly)
+
+### Downloads
+
+https://dl.printnanny.ai/printnanny-os/octoprint-bullseye-arm64/nightly/2022-04-22-1341/
+
+### OctoPrint Edition
+
+* Implement PrintNanny Cloud proxy
+* Update OctoPrint to 1.8.0rc5 and OctoPrint-Nanny 0.10.0
+* Support local/private LAN streaming via Janus Gateway deployment, AKA "edge" mode
+
+### Dependencies
+
+* [printnanny-cli@0.21.1](https://github.com/bitsy-ai/printnanny-cli/releases/tag/v0.21.1)
+* [ansible-collection-printnanny@1.6.4](https://github.com/bitsy-ai/ansible-collection-printnanny/releases/tag/v1.6.4)
+* [printnanny-webapp@0.78.3](https://github.com/bitsy-ai/printnanny-webapp/releases/tag/v0.78.3)
+* [octoprint-nanny-plugin@0.10.0](https://github.com/bitsy-ai/octoprint-nanny-plugin/releases/tag/0.10.0)
+
+
+
 # 2022-03-11-1927 (nightly)
 
 ### Downloads
