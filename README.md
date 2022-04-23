@@ -21,8 +21,8 @@ Print Nanny OS provides monitoring, alerts, and automation for 3D Printers.
 
 | Edition | OctoPrint | Mainsail | Raspberry Pi 4 | Raspberry Pi 3 | Stable                                                                    | Nightly                                                                    |
 |---------|-----------|----------|----------------|----------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| Desktop | ✅         | 🚧        | ✅              | ❌              | 🚧 | [Link](https://dl.printnanny.ai/printnanny-os/octoprint-bullseye-arm64/nightly/2202-03-06-1020/) |
-| Lite    | 🚧         | 🚧        | 🚧              | 🚧              |                                                                           |                                                                            |
+| Desktop | ✅         | 🚧        | ✅              | ❌              | 🚧 | [Link](https://dl.printnanny.ai/printnanny-os/octoprint-bullseye-arm64/nightly/) |
+| Lite    | 🚧         | 🚧        | 🚧              | 🚧              |   🚧                                                                        | 🚧                                                                           | 
 
 ✅ supported
 🚧 work-in-progress
