@@ -7,9 +7,12 @@ assignees: leigh-johnson
 
 ---
 
-- Print Nanny OS version:
-- Raspberry Pi model:
-- Crash dump id:
+Paste the contents of `issue.txt` in the box below.
+```
+# issue.txt contents
+```
+
+You can find `issue.txt` on your SD card by opening `/boot/issue.txt` in a text editor, or opening OctoPrint's Settings > PrintNanny > Report Issue tab.
 
 **Describe the bug**
 A clear and concise description of what the bug is.
