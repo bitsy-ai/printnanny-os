@@ -7,15 +7,15 @@ assignees: leigh-johnson
 
 ---
 
-Paste the contents of `issue.txt` in the box below.
+Copy and paste the contents of `issue.txt` below.
 ```
-# issue.txt contents
+# paste issue.txt here
 ```
 
-You can find `issue.txt` on your SD card by opening `/boot/issue.txt` in a text editor, or opening OctoPrint's Settings > PrintNanny > Report Issue tab.
+> ℹ️ You can find `/boot/issue.txt` on your SD card. You can also find the contents of `issue.txt` in OctoPrint's Settings > OctoPrint-Nanny > Report Issue tab.
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear and concise description of the bug.
 
 **To Reproduce**
 What are the steps to reproduce the issue?
@@ -28,4 +28,4 @@ What are the steps to reproduce the issue?
 A clear and concise description of what you expected to happen.
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+Please share screenshots to help explain your problem.
