@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to improve Print Nanny OS
+about: Create a report to improve PrintNanny OS
 title: 'New issue'
 labels: 'bug'
 assignees: leigh-johnson

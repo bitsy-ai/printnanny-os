@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest an idea for Print Nanny
+about: Suggest an idea for PrintNanny
 title: 'New feature request'
 labels: 'enhancement'
 assignees: leigh-johnson

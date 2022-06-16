@@ -1,14 +1,14 @@
 # PrintNanny OS
 
-Image repository, change logs, and issue tracking for Print Nanny OS.
+Image repository, change logs, and issue tracking for PrintNanny OS.
 
-Print Nanny OS provides monitoring, alerts, and automation for 3D Printers.
+PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 
 ![Discord](https://img.shields.io/discord/773452324692688956)
 ![Github Followers](https://img.shields.io/github/followers/leigh-johnson?style=social)
 ![Release](https://img.shields.io/github/release-date-pre/bitsy-ai/printnanny-os)
 
-![Print Nanny Header](https://github.com/bitsy-ai/printnanny-os/raw/main/images/header.png)
+![PrintNanny Header](https://github.com/bitsy-ai/printnanny-os/raw/main/images/header.png)
 
 ## Learn More
 
@@ -30,7 +30,7 @@ Please refer to [docs/INSTALL.MD](docs/INSTALL.MD) to get started with a new Pri
 
 To upgrade an older version of PrintNanny, follow [docs/UPGRADE.MD].
 
-## What's inside Print Nanny OS?
+## What's inside PrintNanny OS?
 
 * PrintNanny Linux, a custom embedded Linux distribution based on the [Yocto Project](https://www.yoctoproject.org/).
 * [OctoPrint](https://octoprint.org/) pre-installed.
@@ -45,7 +45,7 @@ _Coming soon!_
 * Repetier Edition
 * Remote s ccess from anywhere, with [WireGuard VPN](https://www.wireguard.com/).
 
-![Print Nanny Logo](https://github.com/bitsy-ai/octoprint-nanny-plugin/raw/main/docs/images/logo.jpg)
+![PrintNanny Logo](https://github.com/bitsy-ai/octoprint-nanny-plugin/raw/main/docs/images/logo.jpg)
 
 ## Signature
 
