@@ -10,16 +10,17 @@ PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 
 ![PrintNanny Header](https://github.com/bitsy-ai/printnanny-os/raw/main/images/header.png)
 
-## Learn More
+# Learn More
 
 ### [Demo](https://printnanny.ai/)
 ### [Join the Waitlist](https://printnanny.ai/invite/)
 ### [Become a Founding Member to Get Early Access](https://printnanny.ai/subscriptions/signup?next=/subscriptions/checkout)
 
-| Edition | OctoPrint | Mainsail | Raspberry Pi 4 | Raspberry Pi 3 | Stable                                                                    | Nightly                                                                    |
-|---------|-----------|----------|----------------|----------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| Desktop | ✅         | 🚧        | ✅              | ❌              | 🚧 | [Link](https://dl.printnanny.ai/printnanny-os/octoprint-bullseye-arm64/nightly/) |
-| Lite    | 🚧         | 🚧        | 🚧              | 🚧              |   🚧                                                                        | 🚧                                                                           | 
+## Editions
+| Variant | OctoPrint | Mainsail | Raspberry Pi 4 | Raspberry Pi 3 |
+|---------|-----------|----------|----------------|----------------|
+| Desktop | ✅         | 🚧        | ✅              | ❌           |
+| Lite    | 🚧         | 🚧        | 🚧              | 🚧           |
 
 ✅ supported
 🚧 work-in-progress
@@ -29,7 +30,7 @@ PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 
 Please refer to [docs/INSTALL.MD](docs/INSTALL.MD) to get started with a new PrintNanny system.
 
-To upgrade an older version of PrintNanny, follow [docs/UPGRADE.MD].
+To upgrade an older version of PrintNanny, follow [docs/UPGRADE.MD](docs/UPGRADE.MD).
 
 ## What's inside PrintNanny OS?
 
