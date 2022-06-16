@@ -13,11 +13,7 @@ Print Nanny OS provides monitoring, alerts, and automation for 3D Printers.
 ## Learn More
 
 ### [Demo](https://www.print-nanny.com/)
-### [Feature Comparison](https://print-nanny.com/devices/releases/)
-### [View the Roadmap](https://bitsy-ai.notion.site/Print-Nanny-Roadmap-7b48a2c8d83248eea2de14edfeaf52ee)
 ### [Join the Early Access Program](https://www.print-nanny.com/subscriptions/checkout)
-### [Getting Started Guide](https://bitsy-ai.notion.site/Getting-Started-with-Print-Nanny-OS-817bc65297ff44a085120c663dced5f3)
-
 
 | Edition | OctoPrint | Mainsail | Raspberry Pi 4 | Raspberry Pi 3 | Stable                                                                    | Nightly                                                                    |
 |---------|-----------|----------|----------------|----------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -28,19 +24,26 @@ Print Nanny OS provides monitoring, alerts, and automation for 3D Printers.
 🚧 work-in-progress
 ❌ no support planned
 
-## Install Guide
+## Installation & Upgrades
 
-* [Download the latest release](https://github.com/bitsy-ai/printnanny-os/releases)
-* [Follow the Welcome/Install Guide](https://www.print-nanny.com/devices/welcome/) (requires Print Nanny membership)
+Please refer to [docs/INSTALL.MD](docs/INSTALL.MD) to get started with a new PrintNanny system.
+
+To upgrade an older version of PrintNanny, follow [docs/UPGRADE.MD].
 
 ## What's inside Print Nanny OS?
 
-* Based on Debian Bullseye (arm64)
-* [OctoPrint](https://octoprint.org/) pre-installed (Mainsail coming soon)
-* WebRTC video streaming stack based on [Janus Gateway](https://github.com/meetecho/janus-gateway), [gstreamer](https://gstreamer.freedesktop.org/), and [libcamera](https://libcamera.org/)
-* [TensorFlow & TensorFlow Lite](https://www.tensorflow.org/)
-* MQTT event publish/subscribe system
-* [WireGuard VPN](https://www.wireguard.com/)
+* PrintNanny Linux, a custom embedded Linux distribution based on the [Yocto Project](https://www.yoctoproject.org/).
+* [OctoPrint](https://octoprint.org/) pre-installed.
+* WebRTC video streaming stack based on [Janus Gateway](https://github.com/meetecho/janus-gateway), [gstreamer](https://gstreamer.freedesktop.org/), and [libcamera](https://libcamera.org/).
+* [TensorFlow & TensorFlow Lite](https://www.tensorflow.org/).
+* MQTT event publish/subscribe system.
+
+> ℹ️ Tip: For a full list of software packages in PrintNanny OS, check the `.manifest` [file in a release.](https://github.com/bitsy-ai/printnanny-os/releases)
+
+_Coming soon!_
+* Klipper & Mainsail Edition
+* Repetier Edition
+* Remote s ccess from anywhere, with [WireGuard VPN](https://www.wireguard.com/).
 
 ![Print Nanny Logo](https://github.com/bitsy-ai/octoprint-nanny-plugin/raw/main/docs/images/logo.jpg)
 
