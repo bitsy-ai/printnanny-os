@@ -102,9 +102,9 @@ https://dl.print-nanny.com/printnanny-os/octoprint-bullseye-arm64/nightly/2022-0
 
 ### Base Image
 
-* Print Nanny OS is now built from offical stable [Raspberry Pi OS 64-bit release](https://www.raspberrypi.com/news/raspberry-pi-os-64-bit/) (previous builds used a Beta release of Raspberry Pi OS)
+* PrintNanny OS is now built from offical stable [Raspberry Pi OS 64-bit release](https://www.raspberrypi.com/news/raspberry-pi-os-64-bit/) (previous builds used a Beta release of Raspberry Pi OS)
 
-### Print Nanny CLI
+### PrintNanny CLI
 
 * https://github.com/bitsy-ai/printnanny-cli/releases/tag/v0.13.0
 
