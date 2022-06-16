@@ -12,8 +12,9 @@ PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 
 ## Learn More
 
-### [Demo](https://www.print-nanny.com/)
-### [Join the Early Access Program](https://www.print-nanny.com/subscriptions/checkout)
+### [Demo](https://printnanny.ai/)
+### [Join the Waitlist](https://printnanny.ai/invite/)
+### [Become a Founding Member to Get Early Access](https://printnanny.ai/subscriptions/signup?next=/subscriptions/checkout)
 
 | Edition | OctoPrint | Mainsail | Raspberry Pi 4 | Raspberry Pi 3 | Stable                                                                    | Nightly                                                                    |
 |---------|-----------|----------|----------------|----------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
