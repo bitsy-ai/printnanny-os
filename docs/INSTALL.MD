@@ -16,13 +16,11 @@ If your computer doesn't have SD card slot, make sure you have a USB/SD Card ada
 
     > ⚠️ UHS Speed Class 1 or 3 is recommended for the best streaming experience.
 
-![SD Card Selection Guide](/images/sdcard-speeds.png|width=300px)
+![SD Card Selection Guide](/images/sdcard-speeds.png)
 
 - [ ] Heatsinks for Raspberry Pi. 
 
     > ⚠️ Without heatsinks, your Raspberry Pi will throttle CPU usage to stay cool. This may cause degraded performance! 
- 
- ![Heatsink Example](/images/heatsink-example.jpg)
 
 ---
 
