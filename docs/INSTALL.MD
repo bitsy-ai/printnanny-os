@@ -3,19 +3,26 @@
 ## What You'll Need
 
 - [ ] Raspberry Pi 4
-> ⚠️ Raspberry Pi 3 support is not available at this time, but you can subscribe to [https://github.com/bitsy-ai/printnanny-os/issues/16](https://github.com/bitsy-ai/printnanny-os/issues/16) for updates. 
+
+    > ⚠️ Raspberry Pi 3 support is not available at this time, but you can subscribe to [https://github.com/bitsy-ai/printnanny-os/issues/16](https://github.com/bitsy-ai/printnanny-os/issues/16) for updates. 
     
 - [ ] Power adaptor for Raspberry Pi
 
 - [ ] Raspberry Pi Camera module
-> 📸 USB Camera support and multi-camera compositing is still experimental. Send an email to leigh@printnanny.ai with your camera make/model for setup assistance.
+    > 📸 USB Camera support and multi-camera compositing is still experimental. Send an email to leigh@printnanny.ai with your camera make/model for setup assistance.
 
 - [ ] Micro SD card with at least 10MB/s write speed
 If your computer doesn't have SD card slot, make sure you have a USB/SD Card adapter.
 
-> ⚠️ UHS Speed Class 1 or 3 is recommended for the best streaming experience.
+    > ⚠️ UHS Speed Class 1 or 3 is recommended for the best streaming experience.
 
-![SD Card Selection Guide](/images/sdcard-speeds.png)
+![SD Card Selection Guide](/images/sdcard-speeds.png|width=300px)
+
+- [ ] Heatsinks for Raspberry Pi. 
+
+    > ⚠️ Without heatsinks, your Raspberry Pi will throttle CPU usage to stay cool. This may cause degraded performance! 
+ 
+ ![Heatsink Example](/images/heatsink-example.jpg)
 
 ---
 
