@@ -51,11 +51,15 @@ See [docs/UPGRADE.md](docs/UPGRADE.md) for detailed upgrade instructions.
 
 Proceed to the next section to download your license while you wait.
 
-# Download license.txt
+# Download license.json
 
-TODO add screenshots
+1. Open the [PrintNanny Cloud dashboard](https://printnanny.ai/dashboard/) in your browser.
+2. Click the ["+ New Connection"](https://printnanny.ai/devices/connect) button and enter your Raspberry Pi's `hostname`.
 
-1. Go to the [https://printnanny.ai/dashboard/](PrintNanny Cloud dashboard) to download a new `license.txt`.
-2. Wait for the Raspberry Pi Imager to finish creating your SD card.
-3. Copy `license.txt` to the `boot` drive on your SD card.
+3. Download `license.json` and copy to the `boot` drive of your SD card.
+
+![Download license example](/images/download-license-example.png).
+
 4. Eject your SD card and insert into your Raspberry Pi's SD card slot.
+
+5. Connect your Raspberry Pi to power.
