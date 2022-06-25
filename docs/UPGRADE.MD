@@ -2,10 +2,12 @@
 
 > ⚠️ Check this doc each time you upgrade PrintNanny OS. The directions are subject to change on major/minor versions.
 
-# Manual Update
-
+# Apply Updates Manually
 1. Download the latest `.swu` file from [the releases page](https://github.com/bitsy-ai/printnanny-os/releases).
-2. Browse to http://<your-pi-hostname>.local:8080 (for example: http://pn-octo.local:8000 if your Pi's hostname is `pn-octo`). You should see the SWUpdate UI.
+
+> ⚠️ Tip: Make sure you download the .swu update patch for your PrintNanny OS edition!
+
+2. Browse to `http://<hostname>/update/` where `hostname` is your Raspberry Pi's hostname. You should see PrintNanny's update interface.
 
 ![SWUpdate UI](/images/swupdate-ui.png)
 
@@ -16,6 +18,13 @@
 
 4. Wait for the upgrade to finish. You can view progress by expanding the `Messages` tab.
 
+
+![SWUpdate Messages](/images/swupdate-messages.png)
+
+---
+
 # Automatic Updates
 
-> 🚧  Subscribe to https://github.com/bitsy-ai/printnanny-os/issues/17 for notifications about automatic updates.
+🚧  _Coming soon!_
+
+Subscribe to https://github.com/bitsy-ai/printnanny-os/issues/17 to learn more about automatic updates.
