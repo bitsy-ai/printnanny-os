@@ -11,16 +11,19 @@
 - [ ] Raspberry Pi Camera module
     > 📸 USB Camera support and multi-camera compositing is still experimental. Send an email to leigh@printnanny.ai with your camera make/model for setup assistance.
 
-- [ ] Micro SD card with at least 10MB/s write speed
-If your computer doesn't have SD card slot, make sure you have a USB/SD Card adapter.
+- [ ] Micro SD card with at least 10MB/s write speed.
 
-    > ⚠️ UHS Speed Class 1 or 3 is recommended for the best streaming experience.
+    > ⚠️ If your computer doesn't have SD card slot, make sure you have a USB/SD Card adapter.
+
+    > ⚠️ UHS Speed Class 1 or 3 is recommended for the best video streaming experience.
 
 ![SD Card Selection Guide](/images/sdcard-speeds.png)
 
-- [ ] Heatsinks for Raspberry Pi. 
+- [ ] Heatsinks for Raspberry Pi 4. A CPU heatsink is **required**. USB, ethernet, and RAM heatsinks are optional.
 
     > ⚠️ Without heatsinks, your Raspberry Pi will throttle CPU usage to stay cool. This may cause degraded performance! 
+
+![Selecting the custom menu in Raspberry Pi Imager](/images/heatsinks.jpg).
 
 ---
 
@@ -49,16 +52,19 @@ See [docs/UPGRADE.md](docs/UPGRADE.md) for detailed upgrade instructions.
 
 > 💡 The SD Card image will take a few minutes to finish. 
 
-Proceed to the next section to download your license while you wait.
+Proceed to the next section to download `printnanny.toml`, which is used to configure PrintNanny OS. 
 
 # Download license.json
 
 1. Open the [PrintNanny Cloud dashboard](https://printnanny.ai/dashboard/) in your browser.
 2. Click the ["+ New Connection"](https://printnanny.ai/devices/connect) button and enter your Raspberry Pi's `hostname`.
 
-3. Download `license.json` and copy to the `boot` drive of your SD card.
+3. Download `printnanny.toml` and copy to the `boot` partition of your SD card.
 
-![Download license example](/images/download-license-example.png).
+![Download printnanny.toml configuration file](/images/download-config-example.png)
+
+![Copy printnanny.toml file to boot partition, then eject drive](/images/boot-partition-example.png)
+
 
 4. Eject your SD card and insert into your Raspberry Pi's SD card slot.
 
