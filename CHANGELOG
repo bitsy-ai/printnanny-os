@@ -1,3 +1,18 @@
+# PrintNanny OS v0.2.0 (Beryl Kirkstone)
+
+Follow the instructions in [docs/INSTALL.md](https://github.com/bitsy-ai/printnanny-os/blob/main/docs/INSTALL.MD) to get started with PrintNanny OS. 
+
+### Changes 🎉
+
+* PrintNanny WebRTC-based video stream is now fully integrated into OctoPrint
+* PrintNanny OS is now upgrade-able! See [docs/UPGRADE.md](https://github.com/bitsy-ai/printnanny-os/blob/main/docs/UPGRADE.MD) for detailed upgrade instructions.
+
+### Maintenance
+
+* Github Milestones are now used to track release progress. You can check out the [v0.3.0 ](https://github.com/bitsy-ai/printnanny-os/milestone/3) to see what's coming in the next release.
+
+
+
 # 2022-04-22-1341 (nightly)
 
 ### Downloads
