@@ -13,9 +13,9 @@ Do not share the contents of `printnanny.toml`!
 This file contains sensitive license info, which is used to register and authenticate your device. 
 :::
 
-### 1. Open the [PrintNanny Cloud dashboard](https://printnanny.ai/dashboard/) in your browser.
+### 1. Open [PrintNanny Cloud dashboard](https://printnanny.ai/dashboard/) in your browser
 
-### 2. Click the ["+ New Connection"](https://printnanny.ai/devices/connect) button to get connected to PrintNanny Cloud.
+### 2. Click ["+ New Connection"](https://printnanny.ai/devices/connect) button
 
 ![Create a new connection to PrintNanny Cloud](./img/create-new-connection.png).
 

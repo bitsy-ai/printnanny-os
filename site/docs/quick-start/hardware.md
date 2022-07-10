@@ -20,14 +20,16 @@ Subscribe to the following Github issues to track support for other boards.
 * [Rock Pi 4](https://github.com/bitsy-ai/printnanny-os/issues/37)
 :::
 
-## 2. Power Suppy
+## 2. Power Supply
 
 * 5.1V / 3.0A DC output
 * 96-264Vac operating input range
 
-The official [Raspberry Pi 15W USB-C Power Supply](https://www.raspberrypi.com/products/type-c-power-supply/) is recommended. 
+:::caution
+Inadquate power will impact the quality of your prints and limit PrintNanny's ability to catch defects.
 
-Inadquate power will impact the quality of your prints and limit PrintNanny's ability to catch defects. 
+The official [Raspberry Pi 15W USB-C Power Supply](https://www.raspberrypi.com/products/type-c-power-supply/) is recommended.
+:::
 
 ## 3. Camera
 
@@ -40,8 +42,7 @@ PrintNanny is known to work with the following cameras:
 
 Do you have a camera not listed above? No problem! 
 
-Email support@printnanny.ai or 
-[reply to this Github issue to request support](https://github.com/bitsy-ai/printnanny-os/issues/38). 
+[Reply to this Github issue to request support for your camera.](https://github.com/bitsy-ai/printnanny-os/issues/38). 
 :::
 
 ## 4. Heatsinks
@@ -49,16 +50,20 @@ Email support@printnanny.ai or
 * Minimum: CPU heatsink
 * Recommended: heatsinks CPU, USB, ethernet, and RAM chip
 
+:::info
+
 For help installing the heatsinks, check out [How to Install Heatsinks on the Raspberry Pi 4.](https://www.youtube.com/watch?v=E-4GaAz7XNM)
+:::
 
 ![Image showing dimensions and locations of heatsinks on Raspberry Pi board](./img/heatsinks.jpg).
-
 
 ## 5. Micro SD card
 
 * Minimum: 10MB/s write speed
 
+:::caution
 You'll need an SD card with **UHS speed class 1** or **UHS speed class 3.**
+:::
 
 ![SD Card Selection Guide](./img/sdcard-speeds.png)
 
