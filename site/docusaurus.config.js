@@ -85,6 +85,7 @@ const config = {
             position: 'left',
             href: 'https://printnanny.ai/dashboard'
           },
+          { label: 'Join Waitlist', position: 'left', href: 'https://printnanny.ai/surveys/remote-access' },
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
             label: 'Github',
@@ -106,8 +107,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Quick Start',
+                to: '/category/quick-start',
+              },
+              {
+                label: 'Update PrintNanny OS',
+                to: '/docs/update-printnanny-os',
               },
             ],
           },
@@ -115,34 +120,34 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/bitsy-ai/printnanny-os',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/sf23bk2hPr',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/grepLeigh',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'PrintNanny Cloud',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Log in',
+                href: 'https://printnanny.ai/dashboard',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/bitsy-ai/docusaurus',
-              },
+                label: 'Join the Waitlist',
+                href: 'https://printnanny.ai/surveys/remote-access'
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bitsy AI Labs.`,
       },
       prism: {
         theme: lightCodeTheme,
