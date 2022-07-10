@@ -10,6 +10,7 @@ const config = {
   tagline: 'Stop babysitting your 3D printer',
   url: 'https://docs.printnanny.ai',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
