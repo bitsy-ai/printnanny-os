@@ -54,8 +54,8 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Install to Raspberry Pi`}
+      description="PrintNanny is your personal assistant for 3D printing.>">
       <HomepageHeader />
       <main>
       </main>
