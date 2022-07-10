@@ -16,6 +16,12 @@ PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 ### [Join the Waitlist](https://printnanny.ai/invite/)
 ### [Become a Founding Member to Get Early Access](https://printnanny.ai/subscriptions/signup?next=/subscriptions/checkout)
 
+# Quick Start
+
+### [Install to Raspberry Pi in 15 minutes](http://localhost:3000/docs/category/quick-start/)
+### [Update PrintNanny OS](http://localhost:3000/docs/update-printnanny-os/)
+
+
 # Editions
 | Variant | OctoPrint | Mainsail | Raspberry Pi 4 | Raspberry Pi 3 |
 |---------|-----------|----------|----------------|----------------|
@@ -25,15 +31,6 @@ PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 ✅ supported
 🚧 work-in-progress
 ❌ no support planned
-
-
-# Installation & Upgrades
-
-Please refer to [docs/INSTALL.MD](docs/INSTALL.MD) to get started with a new PrintNanny system.
-
-To upgrade an older version of PrintNanny, follow [docs/UPGRADE.MD](docs/UPGRADE.MD).
-
----
 
 ## What's inside PrintNanny OS?
 
