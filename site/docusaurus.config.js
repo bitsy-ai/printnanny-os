@@ -34,8 +34,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/docs/',
-
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -80,8 +78,7 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: '/category/quick-start',
+            to: '/docs/category/quick-start',
             position: 'left',
             label: 'Quick Start',
           },
@@ -121,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'Quick Start',
-                to: '/category/quick-start',
+                to: '/docs/category/quick-start',
               },
               {
                 label: 'Update PrintNanny OS',
