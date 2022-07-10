@@ -55,6 +55,12 @@ const config = {
         gtag: {
           trackingID: 'G-QKHED5DPGV',
         },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
