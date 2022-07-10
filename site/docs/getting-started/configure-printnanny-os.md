@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Configure PrintNanny OS
 
-Your PrintNanny account info is stored in a `printnanny.toml` file, which you'll download and copy to your SD card.
+This section will show you how to download `printnanny.toml`, which contains your PrintNanny account info and preferences.
 
 :::warning
 

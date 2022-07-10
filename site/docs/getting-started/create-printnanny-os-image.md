@@ -10,9 +10,11 @@ This section will walk you through writing a PrintNanny OS image to your SD card
 
 Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
-## 2.Download PrintNanny OS image 
+## 2. Download PrintNanny OS image 
 
 Browse to the [PrintNanny OS releases page](https://github.com/bitsy-ai/printnanny-os/releases) and download the latest `.wic.tar.gz` file.
+
+![Arrow pointing to .wic.tar.gz among other assets attached to Github release](./img/download-image.png).
 
 ## 3. Configure & Burn Image
 
@@ -38,7 +40,7 @@ Browse to the [PrintNanny OS releases page](https://github.com/bitsy-ai/printnan
 
 9. Click **Save** to save your settings and then **Write** to burn the image to your SD card.
 
-## Don't eject your SD card yet!
+## 4. Don't eject your SD card yet!
 
 Continue to the next section to configure PrintNanny **before** you eject your SD card.
 
