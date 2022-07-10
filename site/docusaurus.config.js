@@ -58,10 +58,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PrintNanny',
+        // style: 'primary',
+        // title: 'PrintNanny',
         logo: {
+          href: 'https://printnanny.ai',
+          height: '5rem',
           alt: 'PrintNanny Logo',
-          src: 'img/logo.png',
+          srcDark: 'img/logo-dark.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -70,12 +74,29 @@ const config = {
             position: 'left',
             label: 'Quick Start',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { label: 'Download', docId: 'quick-start/create-printnanny-os-image', type: 'doc' },
           {
-            href: 'https://github.com/bitsy-ai/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            label: 'Demo',
+            position: 'left',
+            href: 'https://printnanny.ai'
           },
+          {
+            label: 'Log In',
+            position: 'left',
+            href: 'https://printnanny.ai/dashboard'
+          },
+          { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
+          {
+            label: 'Github',
+            position: 'right',
+            href: 'https://github.com/bitsy-ai/printnanny-os'
+          },
+          // { to: '/blog', label: 'Blog', position: 'left' },
+          // {
+          //   href: 'https://github.com/bitsy-ai/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
