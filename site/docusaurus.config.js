@@ -90,9 +90,9 @@ const config = {
 
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
-            label: 'Github',
+            label: 'Issues & Roadmap',
             position: 'right',
-            href: 'https://github.com/bitsy-ai/printnanny-os'
+            href: 'https://github.com/bitsy-ai/printnanny-os/issues'
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           // {
