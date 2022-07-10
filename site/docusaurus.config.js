@@ -86,6 +86,8 @@ const config = {
             href: 'https://printnanny.ai/dashboard'
           },
           { label: 'Join Waitlist', position: 'left', href: 'https://printnanny.ai/surveys/remote-access' },
+          { label: 'Become a Founding Member', position: 'left', href: 'https://printnanny.ai/subscriptions/checkout' },
+
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
             label: 'Github',
