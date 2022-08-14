@@ -1,8 +1,0 @@
-{
-    "label": "Command-line Interface",
-    "position": 3,
-    "link": {
-        "type": "generated-index",
-        "description": "How to use PrintNanny's CLI to configure and control your printer."
-    }
-}

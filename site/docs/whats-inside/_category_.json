@@ -1,0 +1,8 @@
+{
+    "label": "What's inside PrintNanny?",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "Overview of the nuts/bolts that power PrintNanny."
+    }
+}

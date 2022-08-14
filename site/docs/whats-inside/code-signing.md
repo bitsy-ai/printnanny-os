@@ -1,6 +1,10 @@
-# Signature
+---
+sidebar_position: 3
+---
 
-PrintNanny OS releases include a signed `sha256.checksum.gpg` to verify authenticity.
+# Code Signing
+
+Releases include a PGP-signed `sha256.checksum.gpg` to verify authenticity.
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
