@@ -30,8 +30,11 @@ PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 | Lite    | 🚧         | 🚧        | 🚧              | 🚧           |
 
 ✅ supported
+
 🚧 work-in-progress
+
 ❌ no support planned
+
 
 ## What's inside PrintNanny OS?
 
@@ -46,7 +49,7 @@ _Coming soon!_
 * Repetier Edition
 * Remote s ccess from anywhere, with [WireGuard VPN](https://www.wireguard.com/).
 
-> ### ℹ️ Tip: For the full list of software packaged in PrintNanny OS, check the `.manifest` [file in any release.](https://github.com/bitsy-ai/printnanny-os/releases)
+> ### ℹ️ Tip: The  `.manifest` [file](https://github.com/bitsy-ai/printnanny-os/releases) contains a list of software packaged in PrintNanny OS. 
 
 
 > ### ℹ️ Tip: An overview of PrintNanny's components can be found at [🔍 What's inside PrintNanny OS?](https://docs.printnanny.ai/docs/category/whats-inside-printnanny/)
