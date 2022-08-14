@@ -12,14 +12,15 @@ PrintNanny OS provides monitoring, alerts, and automation for 3D Printers.
 
 # Learn More
 
-### [Demo](https://printnanny.ai/)
-### [Join the Waitlist](https://printnanny.ai/invite/)
-### [Become a Founding Member to Get Early Access](https://printnanny.ai/subscriptions/signup?next=/subscriptions/checkout)
+## [✨ Watch the demo](https://printnanny.ai/)
 
-# Quick Start
+# Quick Start & Documentation
 
-### [Install to Raspberry Pi in 15 minutes](http://localhost:3000/docs/category/quick-start/)
-### [Update PrintNanny OS](http://localhost:3000/docs/update-printnanny-os/)
+## [🚀 Install PrintNanny in 15 Minutes](https://docs.printnanny.ai/docs/category/quick-start/)
+## [🆕 Update PrintNanny via Web UI](https://docs.printnanny.ai/docs/update-printnanny-os/)
+## [🔍 What's inside PrintNanny OS?](https://docs.printnanny.ai/docs/category/whats-inside-printnanny/)
+
+> ### ℹ️ Tip: You can see PrintNanny's roadmap under [🔍 Github's milestones](https://github.com/bitsy-ai/printnanny-os/milestones)
 
 
 # Editions
@@ -45,7 +46,10 @@ _Coming soon!_
 * Repetier Edition
 * Remote s ccess from anywhere, with [WireGuard VPN](https://www.wireguard.com/).
 
-> ℹ️ Tip: For the full list of software packaged in PrintNanny OS, check the `.manifest` [file in any release.](https://github.com/bitsy-ai/printnanny-os/releases)
+> ### ℹ️ Tip: For the full list of software packaged in PrintNanny OS, check the `.manifest` [file in any release.](https://github.com/bitsy-ai/printnanny-os/releases)
+
+
+> ### ℹ️ Tip: An overview of PrintNanny's components can be found at [🔍 What's inside PrintNanny OS?](https://docs.printnanny.ai/docs/category/whats-inside-printnanny/)
 
 
 ![PrintNanny Logo](https://github.com/bitsy-ai/octoprint-nanny-plugin/raw/main/docs/images/logo.jpg)
