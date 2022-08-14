@@ -3,6 +3,8 @@ sidebar_position: 3
 ---
 # Command-line Interface
 
+PrintNanny's CLI is the glue between components/services.
+
 ## [View Source](https://github.com/bitsy-ai/printnanny-cli)
 ## Overview
 
