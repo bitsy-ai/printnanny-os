@@ -82,19 +82,7 @@ const config = {
             position: 'left',
             label: 'Quick Start',
           },
-          { label: 'Download', docId: 'quick-start/create-printnanny-os-image', type: 'doc' },
-          {
-            label: 'Demo',
-            position: 'left',
-            href: 'https://printnanny.ai'
-          },
-          {
-            label: 'Log In',
-            position: 'left',
-            href: 'https://printnanny.ai/dashboard'
-          },
-          { label: 'Join Waitlist', position: 'left', href: 'https://printnanny.ai/surveys/remote-access' },
-          { label: 'Become a Founding Member', position: 'left', href: 'https://printnanny.ai/subscriptions/checkout' },
+          { label: 'Join Waitlist', position: 'left', href: 'https://printnanny.ai' },
 
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
@@ -147,12 +135,8 @@ const config = {
             title: 'PrintNanny Cloud',
             items: [
               {
-                label: 'Log in',
-                href: 'https://printnanny.ai/dashboard',
-              },
-              {
                 label: 'Join the Waitlist',
-                href: 'https://printnanny.ai/surveys/remote-access'
+                href: 'https://printnanny.ai'
               }
             ],
           },
