@@ -1,7 +1,7 @@
 const printnannyConfig = {
-  version: '0.2.0',
-  versionPretty: 'v0.2.0 (Beryl Kirkstone)',
-  slug: 'release-history/0.2.0-beryl-kirkstone'
+  version: '0.3.0',
+  versionPretty: 'v0.3.0 (Cinnabar Kirkstone)',
+  slug: 'release-history/0.3.0-cinnabar-kirkstone'
 };
 
 module.exports = printnannyConfig;
