@@ -20,7 +20,7 @@ All communication between Syncthings is **encrypted** with TLS.
 
 First, you will need to install Syncthing on your laptop, desktop, or other personal computer. You only need to do this once!
 
-After Syncthing is installed, you should be able to open the Syncthing web ui. The default url is: [http://127.0.0.0:8384](127.0.0.0:8384)
+After Syncthing is installed, you should be able to open the Syncthing web ui. The default url is: `127.0.0.0:8384`
 
 ![Create a new connection to PrintNanny Cloud](./img/syncthing/syncthing-browser.png).
 
