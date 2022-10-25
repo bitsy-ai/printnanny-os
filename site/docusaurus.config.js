@@ -27,7 +27,12 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  scripts: [
+    {
+      src: 'https://code.tidio.co/au2l1bikey0opowkikwnoktwxgoslxkt.js',
+      async: true,
+    },
+  ],
   presets: [
     [
       'classic',
