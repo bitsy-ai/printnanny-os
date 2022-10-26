@@ -1,6 +1,7 @@
 {
     "label": "Quick Start",
     "position": 1,
+    "collapsed": false,
     "link": {
         "type": "generated-index",
         "description": "15 minutes to install and customize PrintNanny."

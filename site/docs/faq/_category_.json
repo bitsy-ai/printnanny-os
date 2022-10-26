@@ -1,6 +1,7 @@
 {
-    "label": "Release History",
-    "position": 6,
+    "label": "Frequently Asked Questions",
+    "position": 2,
+    "collapsed": false,
     "link": {
         "type": "generated-index",
         "description": "Learn about the latest features in PrintNanny OS"
