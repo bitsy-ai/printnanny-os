@@ -41,6 +41,10 @@ For $149, you get unlimited access to PrintNanny OS and PrintNanny Cloud. You wi
 
 For $149 USD / year, you get unlimited access to PrintNanny OS and PrintNanny Cloud. You are guaranteed the $149/year unlimited rate for life, no matter how many printers you add - as our way of saying thank you.
 
+## What is your refund policy?
+
+If you're not satisfied with PrintNanny or realize the Founding Member program isn't a good fit for you - we'll provide a full **full refund**. Send an email to leigh@printnanny.ai to start the refund process.
+
 ## Why are so few memberships available?
 
 Not everyone is the kind of person willing to roll up their sleeves and get their hands dirty. **Founding Members are special** in that regard - they acid test PrintNanny's early features, provide thoughtful feedback, and are often entrepeners themselves. 
