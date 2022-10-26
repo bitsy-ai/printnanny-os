@@ -71,6 +71,12 @@ No, you can only access PrintNanny after your membership is processed.
 
 However, if you're not satisfied with PrintNanny or realize the Founding Member program isn't a good fit for you - we offer a **full refund policy**. Send an email to leigh@printnanny.ai to start the refund process.
 
+## Was there a free beta?
+
+PrintNanny's free beta ran January 2021 - June 2021. If you participated in the free beta program, thank you! You should have received an invitation to upgrade to a Founding Membership at a special discounted rate ($99/year).
+
+If you participated in the free beta and missed this coupon, email leigh@printnanny.ai to honor the discounted rate.
+
 ## What hardware do I need?
 
 You'll need to gather everything listed in the [Required Hardware](https://docs.printnanny.ai/docs/quick-start/hardware/) section.
