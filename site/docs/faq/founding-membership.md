@@ -9,11 +9,13 @@ sidebar_position: 1
 
 PrintNanny is currently in **closed beta**. 
 
-The Founding Member program is the only way to get early access to PrintNanny, for an annual membership fee of $149 USD.
+The Founding Member program is the only way to get early access to PrintNanny, for an annual membership fee of $149 USD. A **limited number** (typically 10-20) of Founding Member spots open after a new release.
 
-A **limited number** (typically 10-20) of Founding Member spots open after each new release.
+[Reserve your spot now](https://printnanny.ai/shop/founding-membership). 
+:::
 
-Reserve your spot by emailing leigh@printnanny.ai. 
+:::info
+Email leigh@printnanny.ai if you have a question not covered by this FAQ.
 :::
 
 
@@ -57,7 +59,7 @@ If you'd prefer to wait until PrintNanny's public launch, we totally understand!
 
 Around 100 Founding Memberships will unlock over the course of the beta period, with 10-20 spots opening per release.
 
-You can reserve your spot by emailing by emailing leigh@printnanny.ai. We use Stripe checkout to process payments.
+[Reserve your spot now](https://printnanny.ai/shop/founding-membership). Stripe checkout is used to process payments.
 
 ## Is there a monthly subscription tier?
 

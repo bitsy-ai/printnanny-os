@@ -87,20 +87,20 @@ const config = {
             position: 'left',
             label: 'Quick Start',
           },
-          { label: 'Join Waitlist', position: 'left', href: 'https://printnanny.ai' },
+          { label: 'Join Launch Waitlist', position: 'left', href: 'https://printnanny.ai' },
+          { label: 'Skip Waitlist, Get Early Access', position: 'left', href: 'https://printnanny.ai/shop/founding-membership' },
 
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
-            label: 'Issues & Roadmap',
+            label: 'Issues',
             position: 'right',
             href: 'https://github.com/bitsy-ai/printnanny-os/issues'
           },
-          // { to: '/blog', label: 'Blog', position: 'left' },
-          // {
-          //   href: 'https://github.com/bitsy-ai/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            label: 'Roadmap',
+            position: 'right',
+            href: 'https://github.com/bitsy-ai/printnanny-os/milestones?with_issues=no'
+          },
         ],
       },
       footer: {
