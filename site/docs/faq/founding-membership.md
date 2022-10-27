@@ -59,7 +59,7 @@ If you'd prefer to wait until PrintNanny's public launch, we totally understand!
 
 Around 100 Founding Memberships will unlock over the course of the beta period, with 10-20 spots opening per release.
 
-You can reserve your spot by emailing by emailing leigh@printnanny.ai. We use Stripe checkout to process payments.
+[Reserve your spot now](https://printnanny.ai/shop/founding-membership). Stripe checkout is used to process payments.
 
 ## Is there a monthly subscription tier?
 
