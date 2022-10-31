@@ -34,13 +34,7 @@ Browse to the [PrintNanny OS releases page](https://github.com/bitsy-ai/printnan
     If you prefer to use SSH authentication, provide your public key instead
 6. Configure your **wireless LAN** SSID and passphrase.
 7. Set your **locale** and **keyboard layout**.
-8. **Un-check** the __Eject media when finished__ option.
 
 ![Selecting the custom menu in Raspberry Pi Imager](./img/rpi-imager-eject-media.png).
 
 9. Click **Save** to save your settings and then **Write** to burn the image to your SD card.
-
-## 4. Don't eject your SD card yet!
-
-Continue to the next section to configure PrintNanny **before** you eject your SD card.
-
