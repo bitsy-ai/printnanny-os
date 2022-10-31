@@ -8,17 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'PrintNanny',
   tagline: '👀 Stop Babysitting your 3D Printer.',
-  url: 'https://docs.printnanny.ai',
-  baseUrl: '/',
+  url: 'https://printnanny.ai',
+  baseUrl: '/docs',
   trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'bitsy-ai', // Usually your GitHub org/user name.
-  projectName: 'printnanny-os', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
