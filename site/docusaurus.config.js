@@ -33,6 +33,16 @@ const config = {
       async: true,
     },
   ],
+  plugins: [
+    [
+      "posthog-docusaurus",
+      {
+        apiKey: "phc_if1FbWP98XhFJMRt9ISTp1NvOe9MExeTNG9pH05c50P", // client key
+        appUrl: "https://app.posthog.com", // optional
+        enableInDevelopment: false, // optional
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
