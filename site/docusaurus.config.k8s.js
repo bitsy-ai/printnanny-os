@@ -13,7 +13,7 @@ const config = {
   trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: '/docs/img/favicon.ico',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -102,8 +102,8 @@ const config = {
           href: 'https://printnanny.ai',
           height: '5rem',
           alt: 'PrintNanny Logo',
-          srcDark: 'img/logo-dark.svg',
-          src: 'img/logo.svg',
+          srcDark: '/docs/img/logo-dark.svg',
+          src: '/docs/img/logo.svg',
         },
         items: [
           {
