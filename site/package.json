@@ -9,7 +9,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy-gh-pages": "docusaurus deploy",
-    "build-k8s": "docusaurus --config docusaurus.config.k8s.js",
+    "build-k8s": "docusaurus build --config docusaurus.config.k8s.js",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",

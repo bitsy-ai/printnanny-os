@@ -111,11 +111,6 @@ const config = {
             position: 'right',
             href: 'https://github.com/bitsy-ai/printnanny-os/issues'
           },
-          {
-            label: 'Roadmap',
-            position: 'right',
-            href: 'https://github.com/bitsy-ai/printnanny-os/milestones?with_issues=no'
-          },
         ],
       },
       footer: {
