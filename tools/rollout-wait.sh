@@ -6,7 +6,7 @@ MAX_ATTEMPTS=60
 SLEEP=10
 DEPLOYMENT="deployment/printnanny-docusaurus"
 NAMESPACE="${NAMESPACE:-live}"
-IMAGE="${IMAGE_TAG:-us.gcr.io/print-nanny/printnanny-docusaurus:latest}"
+IMAGE="${IMAGE:-us.gcr.io/print-nanny/printnanny-docusaurus:latest}"
 
 kubectl  -n "$NAMESPACE" set image "$DEPLOYMENT" "docusaurus=$IMAGE" --record
 
