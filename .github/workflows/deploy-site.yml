@@ -1,5 +1,7 @@
 name: Deploy Docs/Blog Site
 on:
+  workflow_dispatch:
+    
   push:
     branches:
       - main
