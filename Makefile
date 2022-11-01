@@ -1,4 +1,4 @@
-.PHONY: image push k8s-apply deploy-k8s
+.PHONY: image push k8s-apply deploy-k8s rollout
 
 CONTAINER_REPO ?= us.gcr.io/print-nanny/printnanny-docusaurus
 RELEASE_TAG ?= latest
@@ -22,4 +22,7 @@ cluster-config:
 k8s-apply:
 	kubectl -n $(NAMESPACE) apply -f k8s/deploy-site.yml
 
-deploy-k8s: image push cluster-config k8s-apply
+rollout:
+	IMAGE=$(CONTAINER_REPO):$(GIT_SHA) ./tools/rollout-wait.sh
+
+deploy-k8s: image push cluster-config k8s-apply rollout
