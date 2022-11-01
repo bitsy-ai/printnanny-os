@@ -22,6 +22,20 @@ spec:
       containers:
         - image: us.gcr.io/print-nanny/printnanny-docusaurus:latest
           name: docusaurus
+          livenessProbe:
+              httpGet:
+                path: /health/
+                port: 8000
+              initialDelaySeconds: 60
+              periodSeconds: 60
+              timeoutSeconds: 3
+              successThreshold: 1
+              failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /health/
+              port: 8000
+            initialDelaySeconds: 60
 ---
 apiVersion: cloud.google.com/v1
 kind: BackendConfig
@@ -36,7 +50,7 @@ spec:
     drainingTimeoutSec: 10
   healthCheck:
     checkIntervalSec: 60
-    port: 80
+    port: 8000
     type: HTTP
     requestPath: /blog/
   cdn:
@@ -61,4 +75,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 80
+      targetPort: 8000
