@@ -23,7 +23,7 @@ spec:
           name: docusaurus
           livenessProbe:
             httpGet:
-              path: /health/
+              path: /
               port: 8000
             initialDelaySeconds: 60
             periodSeconds: 60
@@ -32,7 +32,7 @@ spec:
             failureThreshold: 3
           readinessProbe:
             httpGet:
-              path: /health/
+              path: /
               port: 8000
             initialDelaySeconds: 60
 ---
