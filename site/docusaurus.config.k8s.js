@@ -95,6 +95,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'v0_4_1',
+        content:
+          '<a href="https://printnanny.ai/docs/release-history/0.4.x-dunite-langdale/">PrintNanny OS v0.4.1 is now available!</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
+
       navbar: {
         // style: 'primary',
         // title: 'PrintNanny',
