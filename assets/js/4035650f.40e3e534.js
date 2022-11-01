@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprintnanny_docs=self.webpackChunkprintnanny_docs||[]).push([[2260],{9438:n=>{n.exports=JSON.parse('{"label":"engineering","permalink":"/blog/tags/engineering","allTagsPath":"/blog/tags","count":1}')}}]);
