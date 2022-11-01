@@ -46,10 +46,6 @@ const config = {
         docs: {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/bitsy-ai/printnanny-os/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -74,9 +70,9 @@ const config = {
           truncateMarker: /<!--\s*(truncate)\s*-->/,
           feedOptions: {
             type: 'all',
-            title: '',
-            description: '',
-            copyright: '',
+            title: `PrintNanny Blog`,
+            description: 'Latest in 3D printing news and PrintNanny development updates.',
+            copyright: `Copyright © ${new Date().getFullYear()} Bitsy AI Labs, LLC. All rights reserved.`,
             language: undefined,
           },
         },
