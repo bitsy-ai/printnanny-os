@@ -144,6 +144,15 @@ const config = {
             ],
           },
           {
+            title: 'News',
+            items: [
+              {
+                label: 'OpenSSL Security Update',
+                to: 'https://docs.printnanny.ai/blog/patch-openssl-security-vulnerability-across-hundreds-of-raspberry-pis/',
+              },
+            ],
+          },
+          {
             title: 'Community',
             items: [
               {
@@ -155,8 +164,12 @@ const config = {
                 href: 'https://discord.gg/sf23bk2hPr',
               },
               {
-                label: 'Twitter',
+                label: 'Follow @grepLeigh',
                 href: 'https://twitter.com/grepLeigh',
+              },
+              {
+                label: 'Follow @PrintNanny',
+                href: 'https://twitter.com/printnanny',
               },
             ],
           },
@@ -166,6 +179,10 @@ const config = {
               {
                 label: 'Join the Waitlist',
                 href: 'https://printnanny.ai'
+              },
+              {
+                label: 'Get Early Access Now',
+                href: 'https://printnanny.ai/shop/founding-membership'
               }
             ],
           },
