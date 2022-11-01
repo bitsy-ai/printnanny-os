@@ -40,9 +40,3 @@ jobs:
         with:
           args: |
             🚀 Deployed {{ EVENT_PAYLOAD.repository.full_name }}@{{ GITHUB_SHA }} 🚀
-            ```
-            API Client version: ${{ steps.deploy.outputs.printnanny_client_version }}
-            Cluster: ${{ env.CLUSTER }}
-            Namespace: live
-            ```
-            Cluster status: https://console.cloud.google.com/kubernetes/workload/overview?project=print-nanny
