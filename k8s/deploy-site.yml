@@ -10,7 +10,6 @@ spec:
   selector:
     matchLabels:
       app: printnanny-docusaurus
-  serviceName: printnanny-docusaurus
   template:
     metadata:
       labels:
