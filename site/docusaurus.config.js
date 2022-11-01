@@ -130,6 +130,15 @@ const config = {
             ],
           },
           {
+            title: 'News',
+            items: [
+              {
+                label: 'OpenSSL Security Update',
+                to: 'https://docs.printnanny.ai/blog/patch-openssl-security-vulnerability-across-hundreds-of-raspberry-pis/',
+              },
+            ],
+          },
+          {
             title: 'Community',
             items: [
               {
@@ -152,6 +161,10 @@ const config = {
               {
                 label: 'Join the Waitlist',
                 href: 'https://printnanny.ai'
+              },
+              {
+                label: 'Get Early Access Now',
+                href: 'https://printnanny.ai/shop/founding-membership'
               }
             ],
           },
