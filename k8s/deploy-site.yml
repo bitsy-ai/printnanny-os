@@ -1,0 +1,64 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  namespace: live
+  annotations:
+  name: printnanny-docusaurus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: printnanny-docusaurus
+  serviceName: printnanny-docusaurus
+  template:
+    metadata:
+      labels:
+        app: printnanny-docusaurus
+    spec:
+      nodeSelector:
+        cloud.google.com/gke-spot: "true"
+        iam.gke.io/gke-metadata-server-enabled: "true"
+      containers:
+        - image: us.gcr.io/print-nanny/printnanny-docusaurus:latest
+          name: docusaurus
+---
+apiVersion: cloud.google.com/v1
+kind: BackendConfig
+metadata:
+  name: printnanny-docusaurus
+  namespace: live
+spec:
+  customRequestHeaders:
+    headers:
+      - "X-Forwarded-Proto:https"
+  connectionDraining:
+    drainingTimeoutSec: 10
+  healthCheck:
+    checkIntervalSec: 60
+    port: 80
+    type: HTTP
+    requestPath: /blog/
+  cdn:
+    enabled: true
+    cachePolicy:
+      includeHost: true
+      includeQueryString: false
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: live
+  name: printnanny-docusaurus
+  labels:
+    app: printnanny-docusaurus
+  annotations:
+    cloud.google.com/backend-config: '{"default": "printnanny-docusaurus"}'
+spec:
+  selector:
+    app: printnanny-docusaurus
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

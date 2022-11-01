@@ -1,0 +1,45 @@
+name: Deploy Docs/Blog Site
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    environment: live
+    env:
+      GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.PROD_GCP_SERVICE_ACCOUNT_KEY  }}
+      GCP_SERVICE_ACCOUNT: ${{ secrets.PROD_GCP_SERVICE_ACCOUNT }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: Write deploy key
+        run: echo $GCP_SERVICE_ACCOUNT_KEY > key.json
+      - name: Active Service Account
+        run: gcloud auth activate-service-account $GCP_SERVICE_ACCOUNT --key-file=key.json
+      - name: Configure docker registry credentials
+        run: gcloud auth configure-docker
+      - name: Build Container Image
+        id: ui
+        run: |
+          make image
+      - name: Deploy to live cluster
+        id: deploy
+        run: |
+          make deploy-k8s
+
+      - name: Send Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.PRINT_NANNY_DISCORD_DEPLOY_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: |
+            🚀 Deployed {{ EVENT_PAYLOAD.repository.full_name }}@{{ GITHUB_SHA }} 🚀
+            ```
+            API Client version: ${{ steps.deploy.outputs.printnanny_client_version }}
+            Cluster: ${{ env.CLUSTER }}
+            Namespace: live
+            ```
+            Cluster status: https://console.cloud.google.com/kubernetes/workload/overview?project=print-nanny

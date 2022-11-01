@@ -1,5 +1,6 @@
 name: Publish Release Notes
 on:
+  workflow_dispatch:
   release:
     # Sequence of patterns matched against refs/tags
     types: [ published ]
