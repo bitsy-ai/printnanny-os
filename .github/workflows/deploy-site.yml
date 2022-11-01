@@ -1,5 +1,7 @@
 name: Deploy Docs/Blog Site
 on:
+  workflow_dispatch:
+    
   push:
     branches:
       - main
@@ -12,6 +14,7 @@ jobs:
       GCP_SERVICE_ACCOUNT: ${{ secrets.PROD_GCP_SERVICE_ACCOUNT }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
