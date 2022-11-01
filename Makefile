@@ -4,6 +4,7 @@ CONTAINER_REPO ?= us.gcr.io/print-nanny/printnanny-docusaurus
 RELEASE_TAG ?= latest
 GIT_SHA ?= $(shell git rev-parse HEAD)
 NAMESPACE ?= live
+GCP_PROJECT ?= print-nanny
 CLUSTER ?= www-spot
 ZONE ?= us-central1-c
 
