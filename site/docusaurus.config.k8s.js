@@ -37,6 +37,19 @@ const config = {
         enableInDevelopment: false, // optional
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+        redirects: [
+          // /docs/oldDoc -> /docs/newDoc
+          {
+            to: '/docs/category/quick-start/',
+            from: '/docs/',
+          },
+        ],
+      },
+    ],
   ],
   presets: [
     [
