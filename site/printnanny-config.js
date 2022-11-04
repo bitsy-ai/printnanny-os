@@ -1,5 +1,5 @@
 const printnannyConfig = {
-  version: '0.4.1',
+  version: '0.4.2',
   versionPretty: 'v0.4.x (Dunite Kirkstone)',
   slug: 'release-history/0.4.x-dunite-langdale'
 };
