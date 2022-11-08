@@ -10,31 +10,22 @@ This section will show you how to open *PrintNanny OS's dashboard*, then link yo
 
 The url will be `http://<hostname>.local`
 
-So if you named your Raspberry Pi `printnanny`, you would go to: [http://printnanny.local](http://printnanny.local)
+So if you named your Raspberry Pi `printnanny`, you would go to: [http://printnanny.local/](http://printnanny.local/)
 
-### 2. Click the **Connect Account** link in the alert message
+### 2. Enter your email address
 
-You should see a message: "PrintNanny Cloud - Account Not Linked"
+You'll be prompted to enter your email address, so you can receive a temporary login code.
 
-Click the **Connect Account** link the alert message.
+![PrintNanny OS email login prompt](./img/printnanny-os-login-email.png).
 
-![Connect Account Alert](./img/connect-cloud-account-pn-os-dashboard.png).
+### 3. Enter the temporary login code
 
-### 3. Enter your email address
+Enter the temporary login code that was sent to your email address.
 
-Enter the same email address you used to register for PrintNanny Cloud.
+![PrintNanny OS email 2fa prompt](./img/printnanny-os-login-2fa.png).
 
-![Enter Email Address](./img/connect-cloud-account-pn-os-dashboard.png).
+### 4. 👋 Welcome to PrintNanny OS
 
+After you connect your account, you'll be redirected to PrintNanny OS's mission control dashboard.
 
-### 4. Enter verification code
-
-Enter the verification code sent to your email address.
-
-![Enter Verification Code](./img/enter-verification-code-pn-os-dashboard.png).
-
-After you enter the correct code, PrintNanny OS will be linked to your PrintNanny Cloud account.
-
-![PrintNanny Cloud Connected](./img/printnanny-cloud-connected.png).
-
-
+![PrintNanny OS Mission control](./img/printnanny-os-mission-control.png).
