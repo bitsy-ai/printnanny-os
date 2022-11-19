@@ -116,7 +116,12 @@ const config = {
         textColor: '#091E42',
         isCloseable: false,
       },
-
+      sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'],
+        filename: 'sitemap.xml',
+      },
       navbar: {
         // style: 'primary',
         // title: 'PrintNanny',
