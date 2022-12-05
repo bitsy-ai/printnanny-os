@@ -49,7 +49,7 @@ If you're not satisfied with PrintNanny or realize the Founding Member program i
 
 ## Why are so few memberships available?
 
-Not everyone is the kind of person willing to roll up their sleeves and get their hands dirty. **Founding Members are special** in that regard - they acid test PrintNanny's early features, provide thoughtful feedback, and are often entrepeners themselves. 
+Not everyone is the kind of person willing to roll up their sleeves and get their hands dirty. **Founding Members are special** in that regard - they acid test PrintNanny's early features and provide thoughtful feedback. Most Founding Members are entrepreneurs themselves.
 
 As our way of saying thank you, we're giving Founding Members unlimited access to PrintNanny for a flat rate. This allows us to support the "Founding Team" behind PrintNanny in perpetuity. We're rooting for Founding Members to scale up their own businsses, which is why we're guaranteeing unlimited usage for one low price.
 
