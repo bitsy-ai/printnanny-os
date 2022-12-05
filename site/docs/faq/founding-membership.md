@@ -45,7 +45,7 @@ For $149 USD / year, you get unlimited access to PrintNanny OS and PrintNanny Cl
 
 ## What is your refund policy?
 
-If you're not satisfied with PrintNanny or realize the Founding Member program isn't a good fit for you - we'll provide a full **full refund**. Send an email to leigh@printnanny.ai to start the refund process.
+If you're not satisfied with PrintNanny or realize the Founding Member program isn't a good fit for you - we'll provide a **full refund**. Send an email to leigh@printnanny.ai to start the refund process.
 
 ## Why are so few memberships available?
 
