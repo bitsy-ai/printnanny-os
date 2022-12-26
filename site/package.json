@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "docusaurus start  --config docusaurus.config.k8s.js",
     "start-k8s": "docusaurus start --config docusaurus.config.k8s.js",
-    "build": "docusaurus build",
+    "build": "docusaurus build --config docusaurus.config.k8s.js",
     "swizzle": "docusaurus swizzle",
     "deploy-gh-pages": "docusaurus deploy",
     "build-k8s": "docusaurus build --config docusaurus.config.k8s.js",

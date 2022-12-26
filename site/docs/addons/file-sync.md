@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-# Configure File Sync (Syncthing)
+# File Sync (Syncthing)
 
 This section will show you how to set up [Syncthing](https://syncthing.net/), which is keeps your files synchronized between multiple computers.
 
