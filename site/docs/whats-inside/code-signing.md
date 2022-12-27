@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Code Signing
 
-Releases include a PGP-signed `sha256.checksum.gpg` to verify authenticity.
+All PrintNanny releases include a PGP-signed `sha256.checksum.gpg` to verify authenticity.
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
