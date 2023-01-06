@@ -81,6 +81,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'v0_5_1',
+        content:
+          '<a href="https://printnanny.ai/docs/release-history/0.5.x-emerald-langdale/">PrintNanny OS v0.5.1 is now available!</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       navbar: {
         // style: 'primary',
         // title: 'PrintNanny',
@@ -88,8 +96,8 @@ const config = {
           href: 'https://printnanny.ai',
           height: '5rem',
           alt: 'PrintNanny Logo',
-          srcDark: 'img/logo-dark.svg',
-          src: 'img/logo.svg',
+          srcDark: 'https://cdn.printnanny.ai/www/logo/logo-dark.svg',
+          src: 'https://cdn.printnanny.ai/www/logo/logo.svg',
         },
         items: [
           {
