@@ -109,9 +109,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        id: 'v0_5_0',
+        id: 'v0_5_1',
         content:
-          '<a href="https://printnanny.ai/docs/release-history/0.5.x-emerald-langdale/">PrintNanny OS v0.5.0 is now available!</a>',
+          '<a href="https://printnanny.ai/docs/release-history/0.5.x-emerald-langdale/">PrintNanny OS v0.5.1 is now available!</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
