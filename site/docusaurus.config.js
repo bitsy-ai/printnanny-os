@@ -88,8 +88,8 @@ const config = {
           href: 'https://printnanny.ai',
           height: '5rem',
           alt: 'PrintNanny Logo',
-          srcDark: 'img/logo-dark.svg',
-          src: 'img/logo.svg',
+          srcDark: 'https://cdn.printnanny.ai/www/logo/logo-dark.svg',
+          src: 'https://cdn.printnanny.ai/www/logo/logo.svg',
         },
         items: [
           {
