@@ -1,5 +1,5 @@
 const printnannyConfig = {
-  version: '0.5.1',
+  version: '0.5.2',
   versionPretty: 'v0.5.x (Emerald Langdale)',
   slug: 'release-history/0.5.x-emerald-langdale'
 };
