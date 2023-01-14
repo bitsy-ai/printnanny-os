@@ -21,15 +21,7 @@ For more info, check out the [blog post](https://bitsy.ai/preorder-printnanny-sd
 
 This section will show you how to install the `printnanny-sdwire` command-line tool.
 
-### MacOS
-
-### Linux
-
-### Windows
-
-**Coming soon**
-
-### Build from Source
+### Build CLI from Source
 
 If there isn't a pre-built binary available for your platform/distribution, you can build from source.
 
@@ -41,19 +33,108 @@ $ git clone https://github.com/bitsy-ai/printnanny-sdwire
 ```
 #### 2. Install Pre-requisites
 
-You'll need the following pre-requisites:
+You'll need to install the following pre-requisite libraries:
 
 1. GNU Make / GCC
 2. `libusb`
 3. `libftdi1`
 
-Run the following commands to build from source:
+On Debian/Ubuuntu distributions, install pre-requisites using `apt`:
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install libusb-1.0-0-dev libftdi1-dev
 ```
+
+For RHEL distrbutions, install pre-requisites using `yum`:
+```bash
+$ yum update 
+$ yum install libusb libftdi
+```
+
+#### 3. Build
+
+Run the following commands to build from source:
+```bash
 $ cd src/
 $ make
 ```
 
+Optionally, copy the binary to a location in your `$PATH`:
+```bash
+$ sudo cp sdwire /usr/local/bin/printnanny-sdwire
+```
+
 ## Usage
+
+The following section describes how to use SDWire with two machines:
+
+1. Host machine (any Linux device)
+2. Test machine (any device that boots from an SD card)
+
+### List SDwire devices
+
+Connect your SDWire board to your **host computer** using a USB cable.
+
+Run the following command to verify your SDWire board is connected:
+
+```
+$ printnanny-sdwire --list           
+Number of FTDI devices found: 1
+Dev: 0, Manufacturer: SRPOL, Serial: <unique serial number>, Description: sd-wire
+```
+
+:::info
+Your SDWire board will arrive pre-programmed with a unique serial number.
+:::
+
+:::caution
+If you see an error `libusb_open() failed`, re-run the command using `sudo`.
+```
+$ printnanny-sdwire --list 
+Number of FTDI devices found: 1
+ftdi_usb_get_strings failed: -4 (libusb_open() failed)
+$ sudo printnanny-sdwire --list           
+Number of FTDI devices found: 1
+Dev: 0, Manufacturer: SRPOL, Serial: <unique serial number>, Description: sd-wire
+```
+:::
+
+### Mode: Test Server
+
+In **Test Server** mode, the SDWire board is available for read/write operations originating from your **host machine**.
+
+To put the device into Test Server mode, run:
+
+```
+$ printnanny-sdwire --device-serial=<serial number> --ts      
+```
+
+:::caution
+If you see an error `libusb_open() failed`, re-run the command using `sudo`.
+:::
+
+When the SDWire is in **Test Server** mode, a solid blue LED labeled `TS` will remain lit.
+
+
+### Mode Device-Under-Test
+
+In **Device-Under-Test** mode, the SDWire board is available for read/write operations originating from the **test machine**.
+
+To put the device into Device-Under-Test mode, run:
+
+```
+$ printnanny-sdwire --device-serial=<serial number> --dut     
+```
+
+When the SDWire is in **Device-Under-Test** mode, a solid green LED labeled `DUT` will remain lit.
+
+:::caution
+If you see an error `libusb_open() failed`, re-run the command using `sudo`.
+:::
+
+
+### Other Usage
 
 ```
 $ printnanny-sdwire --help
@@ -84,9 +165,6 @@ Help options:
   -?, --help                     Show this help message
       --usage                    Display brief usage message
 ```
-
-
-
 
 ## Links
 
