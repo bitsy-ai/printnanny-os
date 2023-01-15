@@ -12,9 +12,9 @@ Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/
 
 ## 2. Download PrintNanny OS image 
 
-Browse to the [PrintNanny OS releases page](https://github.com/bitsy-ai/printnanny-os/releases) and download the latest `.wic.tar.gz` file.
+Browse to the [PrintNanny OS releases page](https://github.com/bitsy-ai/printnanny-os/releases) and download the latest `.wic.gz` file.
 
-![Arrow pointing to .wic.tar.gz among other assets attached to Github release](./img/download-image.png)
+![Arrow pointing to .wic.gz among other assets attached to Github release](./img/download-image.png)
 
 ## 3. Burn Image to SD Card
 
