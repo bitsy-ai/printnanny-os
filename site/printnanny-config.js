@@ -1,7 +1,7 @@
 const printnannyConfig = {
-  version: '0.5.2',
-  versionPretty: 'v0.5.x (Emerald Langdale)',
-  slug: 'release-history/0.5.x-emerald-langdale'
+  version: '0.6.0',
+  versionPretty: 'v0.6.x (Feldspar Langdale)',
+  slug: 'release-history/0.6.x-feldspar-langdale'
 };
 
 module.exports = printnannyConfig;
