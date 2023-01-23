@@ -22,4 +22,12 @@ PrintNanny OS is currently in closed Beta.
 
 As usual, you can see detailed development updates in [Github's milestone tracker.](https://github.com/bitsy-ai/printnanny-os/milestone/6?closed=1). 
 
-Exciting new updates in Emerald include:
+Exciting new updates in Feldspar:
+
+### Timelapse Videos
+
+You can now use PrintNanny to record videos in .mp4 format. Videos are automatically backed up to PrintNanny Cloud.
+
+You can enable/disable upload of recording backups in PrintNanny OS camera settings:
+
+<screenshot>
