@@ -84,7 +84,7 @@ const config = {
       announcementBar: {
         id: 'v0_6_2',
         content:
-          '<a href="https://printnanny.ai/docs/release-history/0.6.x-feldspar-langdale/">PrintNanny OS v0.6.2 is now available!</a>',
+          '<a href="https://printnanny.ai/docs/release-history/0.6.x-feldspar-langdale/">PrintNanny OS v0.6.3 is now available!</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
