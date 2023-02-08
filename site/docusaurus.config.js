@@ -55,13 +55,13 @@ const config = {
           // editUrl:
           //   'https://github.com/bitsy-ai/printnanny-os/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/bitsy-ai/printnanny-os/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   // editUrl:
+        //   //   'https://github.com/bitsy-ai/printnanny-os/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -106,12 +106,12 @@ const config = {
             label: 'Quick Start',
           },
           {
-            to: '/blog',
+            to: 'https://printnanny.ai/blog/',
             position: 'left',
             label: 'Blog',
           },
-          { label: 'Join Launch Waitlist', position: 'left', href: 'https://printnanny.ai' },
-          { label: 'Skip Waitlist, Get Early Access', position: 'left', href: 'https://printnanny.ai/shop/founding-membership' },
+          { label: 'Pricing', position: 'left', href: 'https://printnanny.ai/pricing' },
+          { label: 'Dashboard', position: 'left', href: 'https://printnanny.ai/devices' },
 
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
