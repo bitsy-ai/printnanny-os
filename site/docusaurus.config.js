@@ -106,7 +106,7 @@ const config = {
             label: 'Quick Start',
           },
           {
-            to: 'https://printnanny.ai/blog/',
+            href: 'https://printnanny.ai/blog/',
             position: 'left',
             label: 'Blog',
           },
