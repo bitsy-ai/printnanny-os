@@ -139,12 +139,11 @@ const config = {
             label: 'Quick Start',
           },
           {
-            to: '/blog',
+            to: 'https://printnanny.ai/blog/',
             position: 'left',
-            label: 'Blog',
+            label: 'Blog & Newsletter',
           },
-          { label: 'Join Waitlist', position: 'left', href: 'https://printnanny.ai' },
-          { label: 'Get Early Access', position: 'left', href: 'https://printnanny.ai/shop/founding-membership' },
+          { label: 'Pricing', position: 'left', href: 'https://printnanny.ai/pricing/' },
 
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
@@ -167,15 +166,6 @@ const config = {
               {
                 label: 'Update PrintNanny OS',
                 to: '/docs/update-printnanny-os',
-              },
-            ],
-          },
-          {
-            title: 'News',
-            items: [
-              {
-                label: 'OpenSSL Security Update',
-                to: 'https://docs.printnanny.ai/blog/patch-openssl-security-vulnerability-across-hundreds-of-raspberry-pis/',
               },
             ],
           },
@@ -204,12 +194,25 @@ const config = {
             title: 'PrintNanny Cloud',
             items: [
               {
-                label: 'Join the Waitlist',
-                href: 'https://printnanny.ai'
+                label: 'Pricing',
+                href: 'https://printnanny.ai/pricing/'
               },
               {
-                label: 'Get Early Access Now',
-                href: 'https://printnanny.ai/shop/founding-membership'
+                label: 'My Network',
+                href: 'https://printnanny.ai/devices/'
+              }
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Privacy Policy',
+                href: 'https://printnanny.ai/privacy/'
+              },
+              {
+                label: 'Terms of Service',
+                href: 'https://printnanny.ai/terms/'
               }
             ],
           },
