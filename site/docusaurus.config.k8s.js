@@ -60,35 +60,6 @@ const config = {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   path: 'blog',
-        //   routeBasePath: 'blog',
-        //   blogTitle: "PrintNanny News",
-        //   include: ['**/*.{md,mdx}'],
-        //   exclude: [
-        //     '**/_*.{js,jsx,ts,tsx,md,mdx}',
-        //     '**/_*/**',
-        //     '**/*.test.{js,jsx,ts,tsx}',
-        //     '**/__tests__/**',
-        //   ],
-        //   postsPerPage: 10,
-        //   blogListComponent: '@theme/BlogListPage',
-        //   blogPostComponent: '@theme/BlogPostPage',
-        //   blogTagsListComponent: '@theme/BlogTagsListPage',
-        //   blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
-        //   rehypePlugins: [],
-        //   beforeDefaultRemarkPlugins: [],
-        //   beforeDefaultRehypePlugins: [],
-        //   truncateMarker: /<!--\s*(truncate)\s*-->/,
-        //   feedOptions: {
-        //     type: 'all',
-        //     title: `PrintNanny Blog`,
-        //     description: 'Latest in 3D printing news and PrintNanny development updates.',
-        //     copyright: `Copyright © ${new Date().getFullYear()} Bitsy AI Labs, LLC. All rights reserved.`,
-        //     language: undefined,
-        //   },
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -117,7 +88,7 @@ const config = {
         isCloseable: false,
       },
       sitemap: {
-        changefreq: 'weekly',
+        changefreq: 'daily',
         priority: 0.5,
         ignorePatterns: ['/tags/**'],
         filename: 'sitemap.xml',
@@ -139,12 +110,11 @@ const config = {
             label: 'Quick Start',
           },
           {
-            to: '/blog',
+            to: 'https://printnanny.ai/blog/',
             position: 'left',
-            label: 'Blog',
+            label: 'Blog & Newsletter',
           },
-          { label: 'Join Waitlist', position: 'left', href: 'https://printnanny.ai' },
-          { label: 'Get Early Access', position: 'left', href: 'https://printnanny.ai/shop/founding-membership' },
+          { label: 'Pricing', position: 'left', href: 'https://printnanny.ai/pricing/' },
 
           { label: 'Discord', position: 'right', href: 'https://discord.gg/sf23bk2hPr' },
           {
@@ -167,15 +137,6 @@ const config = {
               {
                 label: 'Update PrintNanny OS',
                 to: '/docs/update-printnanny-os',
-              },
-            ],
-          },
-          {
-            title: 'News',
-            items: [
-              {
-                label: 'OpenSSL Security Update',
-                to: 'https://docs.printnanny.ai/blog/patch-openssl-security-vulnerability-across-hundreds-of-raspberry-pis/',
               },
             ],
           },
@@ -204,12 +165,25 @@ const config = {
             title: 'PrintNanny Cloud',
             items: [
               {
-                label: 'Join the Waitlist',
-                href: 'https://printnanny.ai'
+                label: 'Pricing',
+                href: 'https://printnanny.ai/pricing/'
               },
               {
-                label: 'Get Early Access Now',
-                href: 'https://printnanny.ai/shop/founding-membership'
+                label: 'My Network',
+                href: 'https://printnanny.ai/devices/'
+              }
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Privacy Policy',
+                href: 'https://printnanny.ai/privacy/'
+              },
+              {
+                label: 'Terms of Service',
+                href: 'https://printnanny.ai/terms/'
               }
             ],
           },
