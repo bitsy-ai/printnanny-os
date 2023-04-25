@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprintnanny_docs=self.webpackChunkprintnanny_docs||[]).push([[2535],{5641:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"OpenSSL security update for hundreds of Raspberry Pis","permalink":"/blog/patch-openssl-security-vulnerability-across-hundreds-of-raspberry-pis"}]}')}}]);
