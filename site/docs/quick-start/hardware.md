@@ -6,19 +6,19 @@ sidebar_position: 1
 
 Before you get started, make sure you have all required hardware.
 
+:::info
+
+[Raspberry Pi 4B (4GB) kits are now available](https://printnanny.ai/shop/raspberry-pi-4-kit), with everything you need to run PrintNanny.
+
+Continue reading if you want to purchase your own hardware.
+:::
+
 ## 1. Raspberry Pi 4, Model B 
 
 * Minimum: 2GB RAM
 * Recommended: 4GB RAM
 
 [Search raspberrypi.com](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) to find an approved Raspberry Pi reseller.
-
-:::info
-
-Subscribe to the following Github issues to track support for other boards.
-* [Raspberry Pi 3](https://github.com/bitsy-ai/printnanny-os/issues/16) 
-* [Rock Pi 4](https://github.com/bitsy-ai/printnanny-os/issues/37)
-:::
 
 ## 2. Power Supply
 
