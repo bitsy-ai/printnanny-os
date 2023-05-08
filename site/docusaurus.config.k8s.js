@@ -88,7 +88,7 @@ const config = {
         // isCloseable: false,
         id: 'rpi4-kit',
         content:
-          '<a href="printnanny">Raspberry Pi 4 kits now available!</a>',
+          '<a href="printnanny">New: Raspberry Pi 4 kit 🎉</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
