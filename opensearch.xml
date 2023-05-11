@@ -4,7 +4,7 @@
   <ShortName>PrintNanny</ShortName>
   <Description>Search PrintNanny</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://docs.printnanny.ai/img/favicon.ico</Image>
+  <Image width="16" height="16" type="image/x-icon">https://docs.printnanny.ai/https://cdn.printnanny.ai/www/favicon.png</Image>
   <Url type="text/html" method="get" template="https://docs.printnanny.ai/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.printnanny.ai/opensearch.xml" />
   <moz:SearchForm>https://docs.printnanny.ai/</moz:SearchForm>
