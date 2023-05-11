@@ -13,7 +13,7 @@ const config = {
   trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://cdn.printnanny.ai/www/logo/favicon.ico',
+  favicon: 'https://cdn.printnanny.ai/www/favicon.png',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
