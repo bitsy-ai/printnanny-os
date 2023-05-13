@@ -36,13 +36,16 @@ The official [Raspberry Pi 15W USB-C Power Supply](https://www.raspberrypi.com/p
 PrintNanny is known to work with the following cameras:
 
 * [Raspberry Pi Camera Module 2](https://www.raspberrypi.com/products/camera-module-v2/) (IMX219)
+* [Raspberry Pi Camera Module 3](https://www.raspberrypi.com/products/camera-module-3/) (IMX708)
 * [Raspberry Pi High Quality Camera](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/) (IMX477)
+* Most generic USB cameras, like [Logitech Brio](https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.960-001105.html)
+
 
 :::info
 
 Do you have a camera not listed above? No problem! 
 
-[Reply to this Github issue to request support for your camera.](https://github.com/bitsy-ai/printnanny-os/issues/38). 
+[Create a new Github issue to request support for your camera.](https://github.com/bitsy-ai/printnanny-os/issues/new/choose). 
 :::
 
 ## 4. Heatsinks
