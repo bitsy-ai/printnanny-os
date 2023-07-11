@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# PrintNanny SDWire
+# File Sync (SDWire)
 
 ## What does an SDWire board do?
 
@@ -116,6 +116,7 @@ If you see an error `libusb_open() failed`, re-run the command using `sudo`.
 
 When the SDWire is in **Test Server** mode, a solid blue LED labeled `TS` will remain lit.
 
+![When the SDWire is in Test Server mode, a solid blue LED labeled `TS` will remain lit.](./img/sdwire/sdwire-in-testserver-mode.jpg)
 
 ### Mode Device-Under-Test
 
