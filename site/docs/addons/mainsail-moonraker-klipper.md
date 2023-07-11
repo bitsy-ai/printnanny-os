@@ -20,18 +20,29 @@ Make sure you've have the following before proceeding to the next section:
 
 ## Configure Klipper `printer.cfg`
 
-1. [Log into PrintNanny Cloud](https://printnanny.ai/devices/)
-2. Click the **PrintNanny OS** link in the Actions & Quick Links menu. This will open PrintNanny OS's **Mission Control** dashboard.
+### 1. [Log into PrintNanny Cloud](https://printnanny.ai/devices/)
+
+- [ ] Open [https://printnanny.ai/devices/](https://printnanny.ai/devices/) in your browser and log into PrintNanny Cloud.
+
+### 2. Open Mission Control
+
+- [ ] Click the **PrintNanny OS** link in the Actions & Quick Links menu. This will open PrintNanny OS's **Mission Control** dashboard.
 
 ![Click the "PrintNanny OS" link in the Actions & Quick Links menu](./img/open-printnanny-os-mission-control.png)
 
-3. Click the gear icon ⚙️ to open PrintNanny OS settings.
+### 3. Open PrintNanny OS settings.
 
-![Click the gear icon to open PrintNanny OS settings](./img/open-printnanny-os-mission-control.png)
+- [ ] Click the gear icon ⚙️ to open PrintNanny OS settings.
 
-4. Click `Edit Settings Files` in the left-hand menu, and select `klipper/printer.cfg` from the file drop-down.
+![Click the gear icon to open PrintNanny OS settings](./img/open-printnanny-os-settings.png)
 
-5. Copy/paste the following into the code editor:
+- [ ] Click `Edit Settings Files` in the left-hand menu, and select `klipper/printer.cfg` from the file drop-down.
+
+![Open printer.cfg using the file drop-down menu](./img/mainsail/klipper-settings.png)
+
+### 4. Edit Klipper Configuration
+
+- [ ] Copy/paste the following into the code editor:
 
 ```
 ###
@@ -40,8 +51,9 @@ Make sure you've have the following before proceeding to the next section:
 ###
 
 ### 
-# Mainsail macros - DO NOT DELETE!
+# Mainsail macros - DO NOT DELETE below this line!
 ### 
+
 [pause_resume]
 
 [display_status]
@@ -127,7 +139,9 @@ gcode:
   {% else %}
     {action_respond_info("Printer not homed")}
   {% endif %}
-
+### 
+# Mainsail macros - DO NOT DELETE above this line!
+### 
 
 ### 
 # Paste your printer configuration below this section
@@ -136,8 +150,7 @@ gcode:
 
 ```
 
-6. In a new tab, [open Klipper's example configuration files] and **copy** the `.cfg` for your 3D printer: (https://github.com/Klipper3d/klipper/tree/master/config)
-
+- [ ] In a new tab, [open Klipper's example configuration files](https://github.com/Klipper3d/klipper/tree/master/config)  and **copy/paste** the `.cfg` for your 3D printer.
 
 :::info
 
@@ -145,14 +158,13 @@ If you're not sure which Klipper configuration to use, refer to [Klipper's confi
 
 :::
 
-7. **Paste** the contents underneath the section that says `Paste your printer configuration below this section`
+- [ ] Click the **Save** button to save your changes.
 
-8. Click the **Save** button to save your changes.
 
 ## Enable Mainsail
 
-1. Click `Home` to return to Mission Control
-2. Use the toggle-switch to enable the Mainsail add-on.
+- [ ]  Click `Home` to return to Mission Control
+- [ ]  Use the toggle-switch to enable the Mainsail add-on.
 
 :::info
 
@@ -162,14 +174,17 @@ When you see the notification `Mainsail is now available` you can proceed to the
 
 :::
 
-3. Click the `Open Mainsail` button to open the Mainsail dashboard in a new tab.
+![Use the toggle-switch to enable the Mainsail add-on.](./img/mainsail/enable-mainsail.png)
 
-4. Refer to [Mainsail settings](https://docs.mainsail.xyz/overview/settings) to continue customizing your Mainsail dashboard.
 
+- [ ]  Click the `Open Mainsail` button to open the Mainsail dashboard in a new tab.
+
+- [ ]  Refer to [Mainsail settings](https://docs.mainsail.xyz/overview/settings) to continue customizing your Mainsail dashboard.
 
 
 ## Resources
 
 * [Example Klipper configurations](https://www.klipper3d.org/Example_Configs.html)
+* [Welcome to Mainsail](https://docs.mainsail.xyz/)
 * [Reddit /r/klippers](https://www.reddit.com/r/klippers/)
   
