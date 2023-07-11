@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Mainsail + Moonraker + Klipper
+# Klipper, Mainsail, Moonraker
 
 This section will show you how to set up Mainsail (Web UI), Moonraker (API), and Klipper (firmware).
 
