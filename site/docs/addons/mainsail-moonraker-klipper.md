@@ -181,8 +181,9 @@ When you see the notification `Mainsail is now available` you can proceed to the
 
 - [ ]  Refer to [Mainsail settings](https://docs.mainsail.xyz/overview/settings) to continue customizing your Mainsail dashboard.
 
+![Use the toggle-switch to enable the Mainsail add-on.](./img/mainsail/open-mailsail-button.png)
 
-## Resources
+## Additional Resources
 
 * [Example Klipper configurations](https://www.klipper3d.org/Example_Configs.html)
 * [Welcome to Mainsail](https://docs.mainsail.xyz/)
